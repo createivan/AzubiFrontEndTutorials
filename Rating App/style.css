@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Overpass&family=Poppins:wght@600&display=swap");
+
+:root {
+  --mainbackground-color: #131518;
+  --secondary-background-color: radial-gradient(
+    98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  --misc-background-colors: #262e38;
+  --global-white: #ffffff;
+  --light-grey: #969fad;
+  --medium-grey: #7c8798;
+  --global-orange: #fc7614;
+}
+
+* {
+  font-family: "Overpass", sans-serif;
+  transition: 0.3s ease-in-out;
+}
+
+body {
+  width: 100vh;
+  height: 100vh;
+  background: var(--mainbackground-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.6em;
+}
+
+.outerContainer {
+  width: 327px;
+  height: 360px;
+  background: #232a34;
+  display: grid;
+  grid-template-rows: 5% 30% 15% 15%;
+  row-gap: 3rem;
+  flex-direction: column;
+  border-radius: 30px;
+  position: absolute;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 15px;
+}
+
+.outerContainer-thanks {
+  width: 327px;
+  height: 360px;
+  background: #232a34;
+  display: grid;
+  grid-template-rows: 22% 1% 10% 10%;
+  row-gap: 3rem;
+  flex-direction: column;
+  border-radius: 30px;
+  position: absolute;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+}
+
+a:hover {
+  colour: var(--global-orange);
+}
+.star {
+  width: 28px;
+  height: 28px;
+  background: var(--misc-background-colors);
+  border-radius: 99px;
+  box-shadow: 0px 4px 4px #575b6122;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.star i {
+  color: var(--global-orange);
+  position: absolute;
+  padding: 7.77% 80.58 7.69 80.77;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+p {
+  font-family: "Overpass";
+  color: lightgrey;
+  margin: 0;
+  position: absolute;
+  line-height: 22px;
+  left: 12.8%;
+  right: 12.8%;
+}
+
+.ratings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ratings button {
+  border: none;
+  outline: none;
+  border-radius: 99px;
+  color: var(--medium-grey);
+  background-color: var(--misc-background-colors);
+  cursor: pointer;
+}
+.ratings button:hover {
+  background-color: var(--light-grey);
+  color: white;
+}
+
+.ratings button:active {
+  background-color: var(--global-orange);
+}
+
+.button {
+  width: 100%;
+  text-align: center;
+}
+.button button {
+  background: var(--global-orange);
+  color: white;
+  padding: 5px 0;
+  width: 80%;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  line-height: 1.4rem;
+}
+
+.component-heading {
+  color: white;
+}
+.rate-btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #f7f7f7;
+
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.your-rating p {
+  color: #fc7614;
+  text-align: center;
+  width: 50%;
+  background-color: #262e38;
+  position: absolute;
+  border-radius: 22.5px;
+}
+
+.thankyou-info-paragraph {
+  color: #969fad;
+  text-align: center;
+  display: flex;
+}
