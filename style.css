@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Overpass&family=Poppins:wght@600&display=swap");
+
+* {
+  font-family: "Inter";
+  font-style: normal;
+  transition: 0.3s ease-in-out;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 44px;
+  color: #202047;
+}
+
+.profileimage {
+  position: absolute;
+  width: 540px;
+  height: 540px;
+  left: 735px;
+  top: 113px;
+}
+.bg_image_container {
+  position: relative;
+  text-align: center;
+  top: 300px;
+}
+
+.firstprofile {
+  position: absolute;
+  width: 635px;
+  height: 354px;
+  left: 165px;
+  top: 214px;
+  text-align: left;
+}
+
+.arrow {
+  position: absolute;
+  width: 112px;
+  height: 56px;
+  left: 797px;
+  top: 625px;
+}
+
+.profilename {
+  position: absolute;
+  height: 38px;
+  left: 0%;
+  right: 48.3%;
+  top: calc(80% - 38px / 2);
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 38px;
+}
